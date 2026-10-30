@@ -14,6 +14,18 @@ All three views are **linked**: click any branch, point, or row, and the other t
 
 ---
 
+## Screenshots
+
+**Light theme** — tree canvas, ternary plot, and vector table exploring the built-in `bird_400` example dataset (UI in Chinese; English / Chinese selectable):
+
+![CF-Panel main window with the three linked views, light theme](./docs/images/screenshot-light.png)
+
+**Dark theme** — the same workspace in the dark color scheme:
+
+![CF-Panel main window with the three linked views, dark theme](./docs/images/screenshot-dark.png)
+
+---
+
 ## Features
 
 - **Three linked views** — tree, ternary plot, and vector table synchronized via a single selection store
