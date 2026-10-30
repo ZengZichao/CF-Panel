@@ -1,0 +1,46 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!--
+    CF-Panel Application Icon
+    Minimalist black-and-white flat icon.
+    A phylogenetic tree whose canopy converges into a ternary triangle,
+    symbolizing the three linked concordance-factor views.
+  -->
+  <rect width="512" height="512" rx="112" ry="112" fill="#ffffff"/>
+
+  <!-- Ternary triangle (canopy) -->
+  <path d="M 256 80 L 168 200 L 344 200 Z"
+        stroke="#0a0a0a" stroke-width="16" stroke-linejoin="round" fill="none"/>
+
+  <!-- Data point inside triangle -->
+  <circle cx="256" cy="168" r="11" fill="#0a0a0a"/>
+
+  <!-- Trunk connecting triangle to tree -->
+  <line x1="256" y1="200" x2="256" y2="250" stroke="#0a0a0a" stroke-width="16" stroke-linecap="round"/>
+
+  <!-- Root horizontal bar -->
+  <line x1="144" y1="250" x2="368" y2="250" stroke="#0a0a0a" stroke-width="16" stroke-linecap="round"/>
+
+  <!-- Left subtree -->
+  <line x1="144" y1="250" x2="144" y2="330" stroke="#0a0a0a" stroke-width="16" stroke-linecap="round"/>
+  <line x1="100" y1="330" x2="188" y2="330" stroke="#0a0a0a" stroke-width="16" stroke-linecap="round"/>
+  <line x1="100" y1="330" x2="100" y2="400" stroke="#0a0a0a" stroke-width="16" stroke-linecap="round"/>
+  <line x1="188" y1="330" x2="188" y2="400" stroke="#0a0a0a" stroke-width="16" stroke-linecap="round"/>
+
+  <!-- Right subtree -->
+  <line x1="368" y1="250" x2="368" y2="330" stroke="#0a0a0a" stroke-width="16" stroke-linecap="round"/>
+  <line x1="324" y1="330" x2="412" y2="330" stroke="#0a0a0a" stroke-width="16" stroke-linecap="round"/>
+  <line x1="324" y1="330" x2="324" y2="400" stroke="#0a0a0a" stroke-width="16" stroke-linecap="round"/>
+  <line x1="412" y1="330" x2="412" y2="400" stroke="#0a0a0a" stroke-width="16" stroke-linecap="round"/>
+
+  <!-- Leaf nodes -->
+  <circle cx="100" cy="412" r="10" fill="#0a0a0a"/>
+  <circle cx="188" cy="412" r="10" fill="#0a0a0a"/>
+  <circle cx="324" cy="412" r="10" fill="#0a0a0a"/>
+  <circle cx="412" cy="412" r="10" fill="#0a0a0a"/>
+
+  <!-- Internal nodes -->
+  <circle cx="144" cy="250" r="8" fill="#0a0a0a"/>
+  <circle cx="368" cy="250" r="8" fill="#0a0a0a"/>
+  <circle cx="144" cy="330" r="7" fill="#0a0a0a"/>
+  <circle cx="368" cy="330" r="7" fill="#0a0a0a"/>
+</svg>

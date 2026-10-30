@@ -1,0 +1,36 @@
+appId: com.cfpanel.app
+productName: CF-Panel
+directories:
+  output: dist
+  buildResources: build
+files:
+  - out/**/*
+  - package.json
+  - "!**/*.{md,map}"
+  - "!**/tsconfig.json"
+mac:
+  category: public.app-category.science
+  target:
+    - dmg
+    - zip
+win:
+  target:
+    - nsis
+    - portable
+  artifactName: ${productName}-${version}-${arch}.${ext}
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  artifactName: ${productName}-Setup-${version}.${ext}
+portable:
+  artifactName: ${productName}-${version}-portable.${ext}
+linux:
+  target:
+    - AppImage
+    - deb
+# ─── Auto-update configuration (electron-updater) ───
+publish:
+  - provider: github
+    owner: cf-panel
+    repo: cf-panel
+    releaseType: release
